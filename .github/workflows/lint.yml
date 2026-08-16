@@ -2,7 +2,7 @@
 # Goal: When someone changes the python code,
 # the linter will check if the syntax, format, indentation (Linting) is correct or not
 
-name: Automation
+name: Auto Linter
 
 on:
   push:
