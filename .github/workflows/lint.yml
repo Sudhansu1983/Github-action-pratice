@@ -20,9 +20,9 @@ jobs:
 
 #This step will install python
       - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10.14'
+        uses: actions/setup-python@v5
+        with:
+         python-version: '3.10.14'
 
 # this step will install the linting tool
       - name: Install Linter
