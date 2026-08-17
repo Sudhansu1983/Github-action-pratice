@@ -29,6 +29,6 @@ jobs:
       - name: Install Linter
         run: pip install ruff
 # this teps will run the linter
-      - name: Check the files for linting
-        run: ruff check .
+      - name: Run Linter
+        run: ruff check
         
